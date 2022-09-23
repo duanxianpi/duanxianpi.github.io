@@ -1,0 +1,13 @@
+.container {
+    width: 80%;
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Consolas', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 20px;
+    height:auto;
+}
+
+.header{
+    height: 75px;
+}
