@@ -1,0 +1,38 @@
+.cover{
+    filter: drop-shadow(0px 0px 1.35065px rgba(0, 0, 0, 0.7)) drop-shadow(0px 10.013px 6.5195px rgba(0, 0, 0, 0.3)) drop-shadow(10px 8.5065px 20.5325px rgba(0, 0, 0, 0.2));
+    border-radius: 5.4026px;
+}
+
+.card{
+    border: 2.7013px solid #C7C7C7;
+    filter: drop-shadow(6.75325px 6.75325px 5.2597px #00000055);
+    border-radius: 6.75325px;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card:hover{
+    
+}
+
+
+.tag{
+    background: #F0F0F0;
+    border-radius: 40.5195px;
+    color: #007AD9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6.1039px 20.5065px;
+    gap: 13.51px;
+    font-size: 16px;
+    border: none;
+    user-select: none;
+}
+
+.tag:hover { 
+    background: #004964;
+    color: #98E3FF;
+}

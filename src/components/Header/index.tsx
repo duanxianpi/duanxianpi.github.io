@@ -11,7 +11,9 @@ export default class Header extends Component{
       <div className="container">
         <Row gutter={10} wrap={false} className="header" align="middle">
             <Col span={1} offset={0}>
-                <img src={logo} width='50px' alt="logo"></img>
+              <a target="_self" rel="noreferrer" href='http://localhost:3000'>
+                <img src={logo} width='50px' style={{userSelect:"none"}} onDragStart={(e)=>e.preventDefault()} alt="logo" ></img>
+              </a>              
             </Col>
             <Col span={23} offset={0}>
             <Row wrap={false} justify="end" align="middle">
