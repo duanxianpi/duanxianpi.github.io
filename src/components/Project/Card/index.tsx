@@ -31,19 +31,19 @@ export default class Card extends Component<IProps,{}> {
                         <img className="cover" src={this.props.cover} width="100%" alt="cover"/>
                     </Col>
                     <Col span={10}>
-                        <Space direction="vertical">
-                            <a target="_blank" rel="noreferrer" href={this.props.link}>
-                              <Title level={3} underline={true}>{this.props.title}<LinkOutlined style={{paddingLeft:"10px"}} /></Title>
-                            </a>
-                            <Space>
-                                {this.props.tags.map((tag)=>{return <Tag className='tag'>{tag}</Tag>})}
-                            </Space>
-                            <Text>{this.props.describe}</Text>
-                            <Title level={4}>Key Feathers</Title>
-                            <ul>
-                                {this.props.features.map((f)=>{return <li>{f}</li>})}
-                            </ul>
-                        </Space>
+                        <Row gutter={[0,10]}>
+                          <a target="_blank" rel="noreferrer" href={this.props.link}>
+                            <Title level={3} underline={true}>{this.props.title}<LinkOutlined style={{paddingLeft:"10px"}} /></Title>
+                          </a>
+                          <Space wrap={true}>
+                              {this.props.tags.map((tag)=>{return <Tag className='tag'>{tag}</Tag>})}
+                          </Space>
+                          <Text>{this.props.describe}</Text>
+                          <Title style={{width:"100%"}} level={4}>Key Feathers</Title>
+                          <ul>
+                              {this.props.features.map((f)=>{return <li>{f}</li>})}
+                          </ul>
+                        </Row>
                     </Col>
                 </Row>
             </Col>
