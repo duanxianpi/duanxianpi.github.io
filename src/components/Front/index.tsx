@@ -4,20 +4,18 @@ import React, { Component } from 'react'
 import sketch from "../../assets/Sketch BW.png"
 import banner1 from "../../assets/Hi There.png"
 import banner2 from "../../assets/I'm Peter Duan.png"
+import style from "./index.module.css"
 
 const { Title, Text } = Typography
 
 export default class Front extends Component {
   render() {
     return (
-      <div>
+      <div className={style.container}>
         <Row align="middle">
-            <Col span={9}>
-                <img src={sketch} width="100%" style={{userSelect:"none"}} onDragStart={(e)=>e.preventDefault()} alt="front img" />
-            </Col>
             <Col span={14}>
                 <Space direction="vertical" size="middle">
-                        <Title>Hi there 👋, I'am Peter Duan</Title>
+                    <Title>Hi there 👋, I'am Peter Duan</Title>
                     <Text>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -35,6 +33,9 @@ export default class Front extends Component {
                     </Text>
                 </Space>
             </Col>
+            {/* <Col span={9}>
+                <img src={sketch} width="100%" style={{userSelect:"none"}} onDragStart={(e)=>e.preventDefault()} alt="front img" />
+            </Col> */}
         </Row>
       </div>
     )

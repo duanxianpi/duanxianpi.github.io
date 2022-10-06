@@ -1,15 +1,17 @@
 import { Col, Row, Space, Typography } from 'antd'
 import React, { Component } from 'react'
 
+import style from "./index.module.css"
 import Card from "./Card"
-import data from "./data.json"
+import data from "./data"
 
 const { Title, Text } = Typography
+
 
 export default class Project extends Component {
   render() {
     return (
-      <div>
+      <div className={style.container}>
         <Space direction="vertical" style={{ display: 'flex' }} size="large" >
             <Title level={2} style={{textAlign:"center"}}>Some Projects I have done</Title>
             {data.map((p)=>{

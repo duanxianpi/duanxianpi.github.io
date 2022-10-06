@@ -10,7 +10,7 @@ import Project from './components/Project';
 function App() {
   return (
     <div className="App">
-      <Row justify='center' gutter={[0,15]}>
+      <Row justify='center' gutter={[0,10]}>
         <Header/>
         <Front/>
         <Project/>

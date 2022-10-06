@@ -4,17 +4,17 @@
 }
 
 .card{
-    border: 2.7013px solid #C7C7C7;
+    /* border: 2.7013px solid #C7C7C7; */
     filter: drop-shadow(6.75325px 6.75325px 5.2597px #00000055);
     border-radius: 6.75325px;
     background-color: white;
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
+/* 
 .card:hover{
     
-}
+} */
 
 
 .tag{
