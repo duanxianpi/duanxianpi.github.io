@@ -12,7 +12,6 @@ export default class Particle extends Component {
   }
 
   render() {
-    console.log("Update")
     return (
       <div>
         <canvas ref={this.canvasRef} className={style.canvas}/>
