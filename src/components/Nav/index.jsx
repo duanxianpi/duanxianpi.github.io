@@ -48,7 +48,7 @@ export default class Nav extends Component{
                 },
             }}
         >
-            <Row align="middle" gutter={40}>
+            <Row align="middle" gutter={40} className={style.row}>
                 <Col span={2}>
                     <a target="_self" rel="noreferrer" href='http://localhost:3000' className={style.logo}>
                         <img src={logo} width='36px' style={{userSelect:"none"}} onDragStart={(e)=>e.preventDefault()} alt="logo" ></img>

@@ -1,0 +1,6 @@
+.container{
+    width: auto;
+    height: calc(100vh - var(--header-height));
+    padding: 100px 180px;
+    box-sizing : border-box;
+}
