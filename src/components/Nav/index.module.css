@@ -3,7 +3,7 @@
     width:auto;
     height: var(--header-height);
     position: sticky;
-    transition: var(--animation);
+    transition: var(--transition);
 }
 
 .row{
@@ -24,6 +24,7 @@
     font-size: var(--fz-sm);
     display: flex;
     justify-content:space-between;
+
 }
 
 .navA{
@@ -32,6 +33,7 @@
 
 .top {
     top: 0px;
+    z-index: 100;
 }
 
 .down {
@@ -42,6 +44,8 @@
     top: 0px;
     padding: 0px 60px;
     height: var(--header-float-height);
-    box-shadow: 0px -15px 20px 0px #00112b
+    box-shadow: 0px -15px 20px 0px #00112b;
+    backdrop-filter:blur(4px);
+    z-index: 100;
 
 }

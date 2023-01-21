@@ -58,10 +58,10 @@ export default class Nav extends Component{
                 <Col span={14}/>
                 <Col span={8}>
                     <div className={style.nav}>
-                        <a href="/#About" className={style.navA}>About</a>
-                        <a href="/#Projects" className={style.navA}>Projects</a>
-                        <a href="/#Experience" className={style.navA}>Experience</a>
-                        <a href="/#Contacts" className={style.navA}>Contacts</a>
+                        <a href="#About" className={style.navA}>About</a>
+                        <a href="#Projects" className={style.navA}>Projects</a>
+                        <a href="#Experience" className={style.navA}>Experience</a>
+                        <a href="#Contacts" className={style.navA}>Contacts</a>
                     </div>
                 </Col>
             </Row>

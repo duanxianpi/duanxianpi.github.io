@@ -9,7 +9,8 @@ function App() {
     <div className="App">
       <Nav/>
       <Front/>
-      {/* <div style={{paddingBottom:"2000px"}}/> */}
+      <div>TESTS</div>
+      <div style={{paddingBottom:"2000px"}}/>
     </div>
   );
 }

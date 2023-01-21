@@ -1,6 +1,14 @@
 .container{
     width: auto;
-    height: calc(100vh - var(--header-height));
+    height: calc(100vh - var(--header-height) + 20px);
+    min-height: 600px;
     padding: 100px 180px;
     box-sizing : border-box;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    justify-content: center;
+    top: calc(-1*var(--header-height)*0.8);
+    flex-direction: column;
+    gap: 50px;
 }
