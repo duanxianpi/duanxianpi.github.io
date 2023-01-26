@@ -1,0 +1,12 @@
+.tag{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    
+    background: #282C34;
+    border-radius: 40.5195px;
+    color: white;
+    font-size: var(--fz-md);
+}

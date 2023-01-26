@@ -1,0 +1,9 @@
+.sec_container{
+    composes: sec_container from "../../App.module.css";
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}

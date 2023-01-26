@@ -1,12 +1,35 @@
 .App {
   text-align: center;
   font-family: "Titillium Web",sans-serif;
-
 }
 
+.sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 180px;
+  gap: 50px;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
-  margin: 0px 0px 10px;
+  margin: 0px 0px 20px;
   line-height: 1.0;
+}
+
+p {
+  font-size: var(--fz-lg);
+  margin: 0px 0px 15px;
+}
+
+.sec_container{
+  padding: 100px 100px;
+  box-sizing : border-box;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 :root {
@@ -17,6 +40,8 @@ h1, h2, h3, h4, h5, h6 {
   --fz-lg: 18px;
   --fz-xl: 20px;
   --fz-xxl: 22px;
+
+  --fz-sec: 32px;
   
   --header-height : 75px;
   --header-float-height : 50px;

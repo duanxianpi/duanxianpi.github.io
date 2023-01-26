@@ -1,0 +1,10 @@
+.sec_container{
+    composes: sec_container from "../../App.module.css";
+}
+
+.contents{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 50px;
+}

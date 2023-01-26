@@ -1,16 +1,21 @@
-import './App.css';
+import style from './App.module.css';
 
 import Nav from './components/Nav'
 import Front from './components/Front'
-
+import About from './components/About'
+import Particle from './components/Particle'
+import Projects from './components/Projects'
 
 function App() {
   return (
-    <div className="App">
+    <div className={style.App}>
       <Nav/>
+      <Particle/>
       <Front/>
-      <div>TESTS</div>
-      <div style={{paddingBottom:"2000px"}}/>
+      <div className={style.sections}>
+        <About/>
+        <Projects/>
+      </div>
     </div>
   );
 }
