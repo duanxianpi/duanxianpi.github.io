@@ -1,11 +1,21 @@
 import React, { Component } from 'react'
 
 import style from './index.module.css'
+import sr from '../../utils/sr'
+import { srConfig } from '../../config'
 
 export default class About extends Component {
+
+  AboutContainer = React.createRef()
+  
+  componentDidMount = () =>{
+    sr.reveal(this.AboutContainer.current, srConfig());
+  }
+
   render() {
+
     return (
-      <div id = "About" className={style.sec_container}>
+      <div id = "About" ref = {this.AboutContainer} className={style.sec_container}>
         <h1>About Me</h1>
         <div className={style.contents}>
             <div>

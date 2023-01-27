@@ -10,7 +10,7 @@ function App() {
   return (
     <div className={style.App}>
       <Nav/>
-      <Particle/>
+      {/* <Particle/> */}
       <Front/>
       <div className={style.sections}>
         <About/>

@@ -47,6 +47,7 @@ p {
   --header-float-height : 50px;
   --logo-size : 36px;
   --transition : all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  --easing: cubic-bezier(0.645,0.045,0.355,1);
 }
 
 /* .App-logo {
