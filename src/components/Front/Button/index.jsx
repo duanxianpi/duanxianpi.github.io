@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import style from './index.module.css'
 import { FiChevronRight } from "react-icons/fi";
 
-export default class Edge_Cut_Button extends Component {
+export default class EdgeCutButton extends Component {
   render() {
     return (
       <div>

@@ -1,0 +1,52 @@
+.sec_container{
+    composes: sec_container from "../../App.module.css";
+    align-items: center;
+    padding-bottom: 0px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 200px;
+    min-height: 70.4px;
+
+}
+
+.iconsLink .icons{
+    font-size: 64px;
+    color: #353a42;
+    transition: var(--transition);
+}
+
+.iconsLink:hover .icons{
+    color: #00112b;
+    transform: scale(1.5);
+    transition: var(--transition);
+}
+
+.fadeup-enter {
+    opacity: 0.01;
+    transform: translateY(20px);
+    transition: opacity 300ms var(--easing), transform 300ms var(--easing);
+}
+
+.fadeup-enter-active {
+opacity: 1;
+transform: translateY(0px);
+transition: opacity 300ms var(--easing), transform 300ms var(--easing);
+}
+
+.fadedown-enter {
+opacity: 0.01;
+transform: translateY(-20px);
+transition: opacity 300ms var(--easing), transform 300ms var(--easing);
+}
+
+.fadedown-enter-active {
+opacity: 1;
+transform: translateY(0px);
+transition: opacity 300ms var(--easing), transform 300ms var(--easing);
+}

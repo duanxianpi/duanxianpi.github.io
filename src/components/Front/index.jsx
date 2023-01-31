@@ -3,7 +3,7 @@ import {Col, Row, ConfigProvider} from 'antd'
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 import style from "./index.module.css"
-import Edge_Cut_Button from './Button'
+import EdgeCutButton from './Button'
 
 export default class Front extends Component {
 
@@ -42,7 +42,7 @@ export default class Front extends Component {
                             </Col>
                           </Row>
                         </ConfigProvider>
-    let button = <Edge_Cut_Button></Edge_Cut_Button>
+    let button = <EdgeCutButton></EdgeCutButton>
           
     let items = [header1,header2,header3,description]
 
@@ -65,7 +65,7 @@ export default class Front extends Component {
                                                       enter: style['fadeup-enter'],
                                                       enterActive: style['fadeup-enter-active']
                                                     }} timeout={2000}>
-                <div style={{ transitionDelay: `500ms` }}>{button}</div>
+                <div style={{ transitionDelay: `600ms` }}>{button}</div>
             </CSSTransition>}
       </TransitionGroup>
 
