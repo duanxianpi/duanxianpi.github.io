@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="1024" height="1024" version="1.1" viewBox="0 0 270.92 270.92" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="Royal">
+   <stop stop-color="#141e30" offset="0"/>
+   <stop stop-color="#243b55" offset=".35055"/>
+   <stop stop-color="#243b55" offset=".6421"/>
+   <stop stop-color="#141e30" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient74046" x1="55.779" x2="188.15" y1="238.68" y2="44.174" gradientUnits="userSpaceOnUse" xlink:href="#Royal"/>
+  <linearGradient id="linearGradient74390" x1="82.785" x2="215.15" y1="254.28" y2="59.766" gradientUnits="userSpaceOnUse" xlink:href="#Royal"/>
+ </defs>
+ <g transform="matrix(.93747 0 0 .93747 -429.22 -113.32)">
+  <g transform="rotate(180,368.91,207.3)">
+   <path d="m135.47 284.69 117.32-67.733v-135.47l-37.63-21.725v57.255l-132.37 76.424v60.831zm0-43.451-15.052-8.6904 9e-3 -15.592 94.731-54.693v32.968z" fill="url(#linearGradient74390)" style="paint-order:normal"/>
+   <path d="m55.779 238.68v-57.255l132.37-76.424v-60.831l-52.682-30.415-117.32 67.733v135.47zm0-102.5v-32.968l79.688-46.008 15.052 8.6904v15.587z" fill="url(#linearGradient74046)" style="mix-blend-mode:normal;paint-order:normal"/>
+  </g>
+ </g>
+</svg>
