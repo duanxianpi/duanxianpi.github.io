@@ -10,7 +10,7 @@ export default class Front extends Component {
   state = {isMounted: false}
 
   componentDidMount(){
-    this.timeout = setTimeout(() => this.setState({isMounted: true}), 1000);
+    this.timeout = setTimeout(() => this.setState({isMounted: true}), 500);
   }
 
   componentWillUnmount(){
@@ -23,8 +23,8 @@ export default class Front extends Component {
     const {isMounted} = this.state
 
     let header1 = <h1 style={{fontSize: "20px", margin: "0px 0px 30px 4px"}}>Hi, my name is</h1>
-    let header2 = <h1 style={{fontSize:"72px", fontWeight: "bold",color:"#353A42", margin: "0"}}>Peter Duan</h1>
-    let header3 = <h1 style={{fontSize:"72px", fontWeight: "bold",color:"#00112B", marginTop: "5px"}}>Exploring, Learning, Progressing</h1>
+    let header2 = <h1 style={{fontSize:"72px", fontWeight: "bold",color:"#353A42", margin: "0"}}>Peter Duan.</h1>
+    let header3 = <h1 style={{fontSize:"72px", fontWeight: "bold",color:"#00112B", marginTop: "5px"}}>Exploring, Learning, Practising</h1>
     let description = <ConfigProvider
                         theme={{
                             token: {
@@ -35,9 +35,10 @@ export default class Front extends Component {
                           <Row>
                             <Col span={16}>
                               <p style={{paddingTop:"10px"}}>
-                                Lorem ipsum dolor sit amet, assum graecis percipit cum ei, quo at erant efficiendi. 
-                                Eos fugit nihil ponderum ut. Per et alia everti suavitate, choro percipit liberavisse ea eum. 
-                                Ad malis altera accusamus mei, eum et delicata instructior, libris iudicabit ne cum.
+                              is my strategy of progressing. 
+                              I have continually incorporated these ideas into my daily activities. 
+                              This strategy not only encourages awe and passion for life, while it also 
+                              forms the basis for my ongoing self-improvement.
                               </p>
                             </Col>
                           </Row>

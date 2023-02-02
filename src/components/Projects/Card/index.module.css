@@ -17,6 +17,7 @@
     border-radius: 6.75325px;
     transition: var(--transition);
     transform: translate(20px,20px);
+    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .details{

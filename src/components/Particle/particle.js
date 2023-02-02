@@ -81,7 +81,7 @@ export default class Visual {
       startAngle: 0,
       endAngle: Math.PI * 2,
       alpha: alpha,
-      color: { r: random(0, 100), g: random(0, 100), b: 255 },
+      color: { r: 116, g: 180, b: 225 },
       speed: alpha + 1,
       amplitude: random(50, 200),
       isBurst: false

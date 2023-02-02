@@ -35,7 +35,7 @@ export default class Projects extends Component {
         <h1 ref = {this.sectionTitle}>Some Projects I have done</h1>
         <div className={style.cards}>
           {data.map((p,i)=>{
-            return <div key = {i} ref = {this.refList[i]}><Card {...p}/></div>
+            return <div key = {i} ref = {this.refList[i]}><Card {...p} number={i} /></div>
           })}
         </div>
       </div>

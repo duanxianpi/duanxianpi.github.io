@@ -65,7 +65,7 @@ export default class Contacts extends Component {
                       }
                 </TransitionGroup>
             </div>
-            <div style={{paddingBottom: "10px"}}>Peter Duan @ 2023</div>
+            <div style={{paddingBottom: "10px"}}>Xianpi Duan © 2023</div>
         </div>
     )
   }
