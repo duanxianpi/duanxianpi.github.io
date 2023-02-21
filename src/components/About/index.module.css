@@ -8,3 +8,9 @@
     align-items: flex-start;
     gap: 50px;
 }
+
+.img {
+    filter: drop-shadow(20px 20px 45px rgba(0, 0, 0, 0.2));
+    border-radius: 5.4026px;
+    border-width: 0px;
+}

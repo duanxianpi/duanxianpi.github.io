@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import style from './index.module.css'
 import sr from '../../utils/sr'
 import { srConfig } from '../../config'
+import photo from '../../assets/IMG_0256.jpg'
 
 export default class About extends Component {
 
@@ -51,7 +52,7 @@ export default class About extends Component {
                 <li>Nginx</li>
               </ul>
             </div>
-            <img src='https://upload.wikimedia.org/wikipedia/commons/5/5f/Grey.PNG' style={{height:"300px"}}></img>
+            <img className={style.img} src={photo} style={{height:"400px"}}></img>
         </div>
       </div>
     )
