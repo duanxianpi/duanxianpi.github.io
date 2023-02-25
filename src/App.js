@@ -6,6 +6,7 @@ import About from './components/About'
 import Particle from './components/Particle'
 import Projects from './components/Projects'
 import Contacts from './components/Contacts'
+import './utils/stats'
 
 function App() {
   return (
