@@ -23,12 +23,14 @@ export default class About extends Component {
               <p>
                 Hello! My name is Peter Duan and I am a computer science student 
                 in my second year at McMaster University. I am actively seeking a 
-                co-op opportunity for the summer of 2023.
+                co-op opportunity for the summer of 2024.
               </p>
               <p>
                 My passion for programming has its roots in my early experiences 
                 with Minecraft PE edition, where I first discovered the thrill 
-                of bringing my own ideas to life through writing JS extensions. 
+                of bringing my own ideas to life through programming.
+              </p>
+              <p> 
                 This early interest sparked a lifelong love of coding, and I have 
                 been dedicated to expanding my knowledge and skills ever since. 
                 As I continued to learn new programming languages and techniques on my own, 
@@ -48,8 +50,8 @@ export default class About extends Component {
                 <li>React</li>
                 <li>Node.js</li>
                 <li>Google Cloud Platform</li>
-                <li>Flask</li>
-                <li>Nginx</li>
+                <li>Python</li>
+                <li>Machine Learning</li>
               </ul>
             </div>
             <img className={style.img} src={photo} style={{height:"400px"}}></img>

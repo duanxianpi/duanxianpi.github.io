@@ -2,8 +2,26 @@ import P1 from "../../assets/P1.png"
 import P2 from "../../assets/P2.png"
 import P3 from "../../assets/P3.png"
 import Ins from "../../assets/Ins2.png"
+import Qrcode from "../../assets/qrcode.png"
 
 let projectList = [
+    {
+        "title":"Artistic QR Code Generator",
+        "cover":Qrcode,
+        "tags":["Python","SD1.5","ControlNet","Node.js"],
+        "describe": "Artistic QR Code Generator leverages a stable diffusion model and ControlNet to generate unique and visually appealing QR codes. It implemented a user-friendly command-line interface, providing users with a range of customization options including art style, ControlNet parameters, etc.",
+        "features": [
+            {
+                "detail": "Cutting edge AI tool",
+                "highlight": true
+            },
+            {
+                "detail": "Easy to use",
+                "highlight": false
+            }
+        ],
+        "link":"https://github.com/duanxianpi/artistic-qrcode-generator"
+    },
     {
         "title":"InstaCal",
         "cover":Ins,
