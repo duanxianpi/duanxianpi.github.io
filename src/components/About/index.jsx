@@ -22,8 +22,8 @@ export default class About extends Component {
             <div>
               <p>
                 Hello! My name is Peter Duan and I am a computer science student 
-                in my second year at McMaster University. I am actively seeking a 
-                co-op opportunity for the summer of 2024.
+                in my third year at McMaster University. I am actively seeking a 
+                co-op opportunity for the winter & summer of 2024.
               </p>
               <p>
                 My passion for programming has its roots in my early experiences 
